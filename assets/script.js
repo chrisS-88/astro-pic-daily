@@ -26,11 +26,10 @@ var exploreBtn = document.getElementById("explore-btn");
 exploreBtn.addEventListener("click", getPotd);
 
 function hideHome() {
-  var area1 = document.querySelector(".area-1");
-  var area2 = document.querySelector(".area-2");
+  var area1 = document.querySelector(".apd-home");
+  var area2 = document.querySelector(".apd-display");
   var back = document.querySelector(".back-btn");
 
   area1.style.display = "none";
   area2.style.display = "block";
-  back.style.display = "block";
 }

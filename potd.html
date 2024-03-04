@@ -17,11 +17,16 @@
     <header>
       <nav>
         <h1 class="nav-title m-0 p-2">AstroPic Daily</h1>
-        <a class="back-btn" href="index.html">Back</a>
+        <ul class="nav-list">
+          <li class="nav-list">
+            <a class="home-btn" href="potd.html">AstroPic Daily</a>
+            <a class="epic-btn" href="epic.html">EPIC</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section class="container-fluid area-1">
+      <section class="container-fluid apd-home">
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <div class="center-text mx-5">
@@ -41,12 +46,12 @@
           </div>
         </div>
       </section>
-      <section class="container-fluid area-2 px-5">
+      <section class="container-fluid apd-display px-5">
         <div class="row pic-plus-description">
           <div class="col-md-6">
             <div class="image-div" id="image-container"></div>
           </div>
-          <div class="explanation-div col-md-6 mt-5 mt-md-0">
+          <div class="explanation-div col-md-6 mt-md-0">
             <span class="img-explanation"></span>
           </div>
         </div>
